@@ -1498,7 +1498,8 @@
   "resolved" "file:services"
   "version" "0.0.0"
   dependencies:
-    "aws-sdk" "^2.1294.0"
+    "aws-sdk" "^2.1295.0"
+    "uuid" "^9.0.0"
 
 "@tootallnate/once@1":
   "integrity" "sha512-RbzJvlNzmRq5c3O09UipeuXno4tA1FE6ikOjxZK0tuxVv3412l64l5t1W5pj4+rJq9vpkm/kwiR07aZXnsKPxw=="
@@ -1537,7 +1538,7 @@
   "resolved" "https://registry.npmjs.org/@types/chai/-/chai-4.3.4.tgz"
   "version" "4.3.4"
 
-"@types/node@*", "@types/node@>= 14":
+"@types/node@*", "@types/node@>= 14", "@types/node@>=8.1.0":
   "integrity" "sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA=="
   "resolved" "https://registry.npmjs.org/@types/node/-/node-18.11.18.tgz"
   "version" "18.11.18"
@@ -3525,7 +3526,7 @@
   "resolved" "https://registry.npmjs.org/q/-/q-1.5.1.tgz"
   "version" "1.5.1"
 
-"qs@6.11.0":
+"qs@^6.11.0", "qs@6.11.0":
   "integrity" "sha512-MvjoMCJwEarSbUYk5O+nmoSzSutSsTwF85zcHPQ9OrlFoZOYIjaqBAJIqIXjptyD5vThxGq52Xu/MaJzRkIk4Q=="
   "resolved" "https://registry.npmjs.org/qs/-/qs-6.11.0.tgz"
   "version" "6.11.0"
@@ -3899,6 +3900,14 @@
   "version" "1.0.0"
   dependencies:
     "acorn" "^8.8.1"
+
+"stripe@^11.8.0":
+  "integrity" "sha512-aGwrJDqYzpjQj0ejt7oN7BE7kUjZFxhUz/gDeyDCS7CBpZhDb26Eb6z9sS8KdbsbmuS8rkkn2lBY4koK7L1ZCw=="
+  "resolved" "https://registry.npmjs.org/stripe/-/stripe-11.8.0.tgz"
+  "version" "11.8.0"
+  dependencies:
+    "@types/node" ">=8.1.0"
+    "qs" "^6.11.0"
 
 "strnum@^1.0.5":
   "integrity" "sha512-J8bbNyKKXl5qYcR36TIO8W3mVGVHrmmxsd5PAItGkmyzwJvybiw2IVq5nqd0i4LSNSkB/sx9VHllbfFdr9k1JA=="
